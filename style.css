@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#table {
+    display: flex;
+}
+
+.table__cell {
+    height: 25px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.table__column {
+    width: 150px;
+}
